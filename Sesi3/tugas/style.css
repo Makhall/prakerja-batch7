@@ -1,0 +1,172 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: rgb(14, 194, 226);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.photo img{
+    width: 250px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(231, 155, 13);
+    /* float: left; */
+    /* margin-right: 0%; */
+}
+
+.profile-text{
+  position: fixed;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-bottom: 90px;
+}
+
+h2{
+  font-size: medium;
+  color: rgb(153, 140, 140);
+}
+
+.action-contact{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.action-resume{
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+#profile{
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    /* padding: 50px; */
+    background-color: #F5F5F5;
+}
+
+.middle{
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+  /* padding: 50px; */
+  background-color: #F5F5F5;
+}
+
+#detail{
+  position: relative;
+  margin-left: 280px;
+  margin-right: 1500px;
+  border-spacing: 100px;
+  padding: 20px;
+  /* background-color: chocolate; */
+}
+
+/* #frontend {
+  font-size: 17px;
+  color: rgb(16, 202, 202);
+  position: relative;
+  top: -35px;
+} */
+
+/* #table td{
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+} */
+
+td{
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+/* #availability {
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+#age {
+  font-weight: bold;
+}
+
+#location {
+  font-weight: bold;
+}
+
+#experience{
+  font-weight: bold;
+}
+
+#email{
+  font-weight: bold;
+  
+} */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 98px;
+  padding: 1px;
+  text-align: center;
+}
