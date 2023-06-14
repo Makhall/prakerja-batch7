@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav>
-      <ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">Logo</a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">Product</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">My Inventory</a></li>
       </ul>
-    </nav>
+    </div>
+  </nav>
 
-    <section class="middle">
-      <div id="profile">
-        <div class="photo">
-          <img src="Pas_Siddiq.jpg" alt="photo" />
-        </div>
-        <div class="profile-text">
-          <h1>Siddiq Makhalli</h1>
-          <h2>Front End Designer</h2>
-          <div>
-            <a class="action-contact" href="https://www.linkedin.com/in/makhall/overlay/contact-info/">Contact</a>
-            <a class="action-resume" href="https://drive.google.com/file/d/1SX9F_UUjRKFwKTKdyTlsc9HvtD5HdB2g/view?usp=drive_link">Resume</a>
-          </div>
-        </div>
-      </div>
-
+  <section class="middle">
+    <div id="profile">
       <div id="detail">
         <table>
           <tr>
@@ -63,45 +55,59 @@
           </tr>
         </table>
       </div>
-    </section>
+      <div class="photo">
+        <img src="Pas_Siddiq.jpg" alt="photo" />
+      </div>
+      <div class="profile-text">
+        <h1>Siddiq Makhalli</h1>
+        <h2>Front End Designer</h2>
+        <div>
+          <a class="action-contact" href="https://www.linkedin.com/in/makhall/overlay/contact-info/">Contact</a>
+          <a class="action-resume" href="https://drive.google.com/file/d/1SX9F_UUjRKFwKTKdyTlsc9HvtD5HdB2g/view?usp=drive_link">Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section>
-      <form action="return false">
-        <div>
-          <label for="name">Name</label><br />
-          <input type="text" />
-        </div>
-        <div>
-          <label for="role">Role</label><br />
-          <input type="text" />
-        </div>
-        <div>
-          <label for="availability">Availability</label><br />
-          <input type="text" />
-        </div>
-        <div>
-          <label for="age">Age</label><br />
-          <input type="number" />
-        </div>
-        <div>
-          <label for="location">Location</label><br />
-          <input type="text" />
-        </div>
-        <div>
-          <label for="year experience">Year Experience</label><br />
-          <input type="number" />
-        </div>
-        <div>
-          <label for="email">Email</label><br />
-          <input type="email" />
-        </div>
-        <br />
-        <input type="submit" />
-      </form>
-    </section>
+  <section>
+    <form action="return false">
+      <div>
+        <label for="name">Name</label><br />
+        <input type="text" />
+      </div>
+      <div>
+        <label for="role">Role</label><br />
+        <input type="text" />
+      </div>
+      <div>
+        <label for="availability">Availability</label><br />
+        <input type="text" />
+      </div>
+      <div>
+        <label for="age">Age</label><br />
+        <input type="number" />
+      </div>
+      <div>
+        <label for="location">Location</label><br />
+        <input type="text" />
+      </div>
+      <div>
+        <label for="year-experience">Year Experience</label><br />
+        <input type="number" />
+      </div>
+      <div>
+        <label for="email">Email</label><br />
+        <input type="email" />
+      </div>
+      <br />
+      <input type="submit" />
+    </form>
+  </section>
 
-    <footer>
-      <p>2023 Siddiq Makhalli. All rights reserved.</p>
-    </footer>
-  </body>
+  <footer>
+    <p>2023 Siddiq Makhalli. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
 </html>
