@@ -1,0 +1,19 @@
+STORE "radius" with value 2
+
+STORE "phi" with value 3,14
+
+STORE "area" without value
+
+STORE "circumference" without value
+
+COMPUTE "phi" times "radius" times "radius"
+
+SET "area" with calculation result
+
+COMPUTE 2 times "phi" times "radius"
+
+SET "circumference" with calculation result
+
+DISPLAY "area"
+
+DISPLAY "circumference"
