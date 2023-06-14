@@ -7,8 +7,4 @@ menuToggle.addEventListener('change', function() {
   } else {
     menu.style.display = 'none';
   }
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 584dece4f2459ea0ef5d0a443884b6abaeb89753
